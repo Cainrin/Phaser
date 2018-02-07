@@ -37,8 +37,8 @@ Net.ajax.prototype =  {
         var x = this.x();
         x.open(method, url, async);
         x.onreadystatechange = function () {
-            if (x.readyState == 4) {
-                if(x.status == 200){
+            if (x.readyState === 4) {
+                if(x.status === 200){
                     succeed(x.responseText);
                 }else{
                     console.log("Error code is " + x.status);
@@ -48,7 +48,7 @@ Net.ajax.prototype =  {
                 }
             }
         };
-        if (method == 'POST') {
+        if (method === 'POST') {
             x.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
         }
         x.send(data)
@@ -72,7 +72,7 @@ Net.ajax.prototype =  {
 };
 
 
-Net.host = 'http://njhylink.hylinkjs.com/winerhsg';
+Net.host = 'https://www.hylinkjs.com/phaser';
 Net.http = new Net.ajax();
 
 Net.post = function (url, data, succeed, failed) {
@@ -82,3 +82,4 @@ Net.post = function (url, data, succeed, failed) {
 Net.get = function (url, data, succeed, failed) {
     this.http.get(this.host + url, data, succeed, failed);
 };
+

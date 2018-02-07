@@ -4,107 +4,88 @@ var States = States || {};
 States.play = function () {
 
     this.genderTextObject = function(text, x, y, style) {
-        obj = new Phaser.Text(game, x, y, text, style);
-        obj.anchor.set(0.5);
-        return obj;
+        this.selfObj = new Phaser.Text(game, x, y, text, style);
+        this.selfObj.anchor.set(0.5);
+        return this.selfObj;
     };
 
-
     this.create = function () {
-        this.startBg = game.add.tileSprite(0, 0, game.width, game.height, 'game_bg');
-        this.cloud = new Puzzle.Image(this, this.startBg.width, this.startBg.height / 6, 'yun2', null, null);
-        this.cloud2 = new Puzzle.Image(this, 0, this.startBg.height / 3, 'yun3', null, null);
-        this.cloud3 = new Puzzle.Image(this, this.startBg.width, this.startBg.height / 1.2, 'yun4', null, null);
-        this.startWarning = new Puzzle.Image(this, this.startBg.width / 2, this.startBg.height / 2, 'img_19', null, null);
-        this.gameTitle = this.genderTextObject("游戏规则", 0, -(this.startWarning.height / 2 - this.startWarning.height / 10),
-            {font: "50px Arial", fill: "#4e412d"});
-        this.leftImage = new Puzzle.Image(this, -(this.startWarning.width / 3), -(this.startWarning.height / 4),
-            'img_22', null, null);
-        this.rightImage = new Puzzle.Image(this, -(this.startWarning.width / 3) + 100, -(this.startWarning.height / 4),
-            'img_22', null, null);
-        this.rightImage.scale.x = -1;
-        this.boatTitle = this.genderTextObject("左右移动龙舟", 70, -(this.startWarning.height / 4),
-            {font: "40px Arial", fill: "#1e1911"});
 
-        this.obsImg = new Puzzle.Image(this, -(this.startWarning.width / 3) + 50, -(this.startWarning.height / 16),
-            'img_27', null, null);
 
-        this.obsTitle = this.genderTextObject("触碰礁石生命值下降", 70, -(this.startWarning.height / 16),
-            {font: "30px Arial", fill: "#1e1911", align: 'left', wordWrap: true, wordWrapWidth: 100 });
+        this.startBg = game.add.tileSprite(0, 0, game.width, game.height, 'gamebg');
 
-        this.riseImg = new Puzzle.Image(this, -(this.startWarning.width / 3) + 30, this.startWarning.height / 12,
-            'img_18', null, null);
+        this.xqBg = game.add.image(game.width * 0.07, game.height * 0.08, 'xqbg', null);
 
-        this.riseTitle = this.genderTextObject("吃到粽子加积分", 70, this.startWarning.height / 12,
-            {font: "30px Arial", fill: "#1e1911", align: 'left', wordWrap: true, wordWrapWidth: 100 });
+        this.xq = new Puzzle.Image(this, this.xqBg.width * 0.3, this.xqBg.height / 2, 'xq', null, null);
+        this.xqtext = this.genderTextObject("0", this.xqBg.width - this.xqBg.width * 0.3, this.xqBg.height / 1.9, {font: "35px Arial", fill: "#be1426"});
+        this.xqBg.addChild(this.xq);
+        this.xqBg.addChild(this.xqtext);
 
-        this.startBtn = new Puzzle.Button(this, 0, this.startWarning.height / 3, 'btn_4', function () {
-                this.onStart();
-        }, this);
+        this.lfBg = game.add.image(game.width - game.width * 0.4, game.height * 0.08, 'lifebg', null);
+        this.life = new Puzzle.Image(this, this.xqBg.width * 0.3, this.xqBg.height / 2, 'life', null, null);
+        this.heart1 = new Puzzle.Image(this, this.xqBg.width * 0.6, this.xqBg.height / 2, 'redheart', null, null);
+        this.heart2 = new Puzzle.Image(this, this.xqBg.width * 0.7, this.xqBg.height / 2, 'redheart', null, null);
+        this.heart3 = new Puzzle.Image(this, this.xqBg.width * 0.8, this.xqBg.height / 2, 'redheart', null, null);
+        this.lfBg.addChild(this.life);
+        this.lfBg.addChild(this.heart1);
+        this.lfBg.addChild(this.heart2);
+        this.lfBg.addChild(this.heart3);
 
-        this.startWarning.addMultipleChild(this.gameTitle, this.leftImage, this.rightImage, this.boatTitle,
-            this.obsImg, this.obsTitle, this.riseImg, this.riseTitle, this.startBtn);
+        this.ltdog = game.add.sprite(game.world.centerX, this.startBg.height * 0.8, 'ltdog');
+        this.ltdog.scale.setTo(0.75, 0.75);
+        this.ltdog.anchor.set(0.5);
 
-        this.hpBand = new Puzzle.Image(this, 139, 52, 'img_20', null, null);
-        this.scoreBand = new Puzzle.Image(this, this.startBg.width / 2 + 181, 52, 'img_20', null, null);
-        this.hpText = this.genderTextObject("HP: 100%", 0, 20,
-            {font: "50px Arial", fill: "#685841"});
-        this.scoreText = this.genderTextObject("Score: 0", 0, 20,
-            {font: "50px Arial", fill: "#685841"});
-        this.hpBand.addChild(this.hpText);
-        this.scoreBand.addChild(this.scoreText);
-        Puzzle.AddWorld(this.startWarning, this.cloud, this.cloud2, this.cloud3, this.hpBand, this.scoreBand);
+        game.physics.arcade.enable(this.ltdog);
+        this.ltdog.body.collideWorldBounds = true;
+        this.canTween = true;
+        this.leftBtn = new Puzzle.Button(this, game.world.centerX / 2,this.startBg.height - this.startBg.height / 12,
+            'ltBtn', function() {
+                this.moveBoat(1);
+            }, this);
 
+
+        this.rightBtn = new Puzzle.Button(this,  game.world.centerX + game.world.centerX / 2,
+            this.startBg.height - this.startBg.height / 12,
+            'rtBtn', function() {
+                this.moveBoat(2);
+            }, this, true);
+
+        this.floatpage = new Puzzle.Image(this, game.world.centerX, game.world.centerY, 'waitBg', null, null);
+
+        Puzzle.AddWorld(this.leftBtn, this.rightBtn, this.floatpage);
+
+        game.input.onDown.addOnce(this.onStart, this);
     };
 
 
     this.onStart = function () {
-        this.hp = 100;
-        this.score = 0;
-        that = this;
+        this.floatpage.destroy();
+        this.hp = 3;
         this.hasStarted = true;
-        this.startWarning.destroy();
-        this.startBg.autoScroll(0, 100);
-        this.boat = game.add.sprite(game.world.centerX, this.startBg.height - this.startBg.height / 8, boatChoice);
-        this.boat.anchor.set(0.5);
-        game.physics.arcade.enable(this.boat);
-        this.boat.body.collideWorldBounds = true;
-        this.leftBtn = new Puzzle.Button(this, game.world.centerX / 2,this.startBg.height - this.startBg.height / 12,
-            'img_22', function() {
-                this.moveBoat(1);
-            }, this);
+        this.redTeam = new Obstacles(5, 'rbot1', 1, 150, this.updateScoreHp, this, 78, 310, 560);
+        this.boomTeam = new Obstacles(3, 'boom1', 1, 200, this.updateScoreHp, this, 98, 330, 550);
 
-        this.rightBtn = new Puzzle.Button(this,  game.world.centerX + game.world.centerX / 2,
-            this.startBg.height - this.startBg.height / 12,
-            'img_46', function() {
-                this.moveBoat(2);
-            }, this, true);
-
-        this.obsTeam = new Obstacles(5, 'img_23', 1, 100, this.updateScoreHp, this);
-        this.riseTeam = new Obstacles(2, 'img_18', 1, 400, this.updateScoreHp, this);
-        this.obsTeam.init();
-        this.riseTeam.init();
-        Puzzle.AddWorld(this.leftBtn, this.rightBtn);
+        this.redTeam.init();
+        this.boomTeam.init();
     };
 
     this.update = function () {
         if (!this.hasStarted) return;
-        game.physics.arcade.overlap(this.boat, this.riseTeam.obstacles, this.riseTeam.getRice, null, this.riseTeam);
-        game.physics.arcade.overlap(this.boat, this.obsTeam.obstacles, this.obsTeam.hitObs, null, this.obsTeam);
+        game.physics.arcade.overlap(this.ltdog, this.redTeam.obstacles, this.redTeam.getBot, null,  this.redTeam);
+        game.physics.arcade.overlap(this.ltdog, this.boomTeam.obstacles, this.boomTeam.hitboom, null, this.boomTeam);
     };
 
     this.gameOver = function () {
         console.log("over!");
         this.stopObs();
-        this.startBg.stopScroll();
-        this.showFinalText();
+        game.state.start('over');
     };
 
     this.stopObs = function() {
-        this.riseTeam.obstacles.forEachExists(function(obs) {
+        this.redTeam.obstacles.forEachExists(function(obs) {
             obs.body.velocity.y = 0;
         }, this);
-        this.obsTeam.obstacles.forEachExists(function(obs) {
+        this.boomTeam.obstacles.forEachExists(function(obs) {
             obs.body.velocity.y = 0;
         }, this);
     };
@@ -138,29 +119,55 @@ States.play = function () {
         this.relativeX = 0;
         switch (value){
             case 1:
-                if (this.boat.x > 650 / 2) {
-                    this.relativeX = 650 / 2;
+                console.log(this.ltdog.x);
+                if (this.ltdog.x > 330) {
+                    this.relativeX = 640 / 2;
                 }else{
-                    this.relativeX = 150;
+                    this.relativeX = 78;
                 }
                 break;
 
             case 2:
-                console.log(this.boat.x);
-                if (this.boat.x < 320) {
+                console.log(this.ltdog.x);
+                if (this.ltdog.x < 310) {
                     this.relativeX = 650 / 2;
                 }else{
-                    this.relativeX = 500;
+                    this.relativeX = 561;
                 }
                 break;
         }
-        game.add.tween(this.boat).to({x: this.relativeX}, 1000, Phaser.easing, true, 0, 0, false)
+
+        if (!this.canTween) {
+            console.log(this.canTween);
+            return;
+        }
+
+        this.canTween = false;
+        this.nowTween = game.add.tween(this.ltdog).to({x: this.relativeX}, 300, Phaser.easing, true, 0, 0, false);
+        this.nowTween.onComplete.add(
+            function () {
+                this.canTween = true;
+            },this
+        )
     };
 
     this.updateScoreHp = function() {
-        this.scoreText.setText("Score: " + this.score);
-        this.hpText.setText("HP: " + this.hp + "%");
+        this.xqtext.setText(gameScore);
+        switch (this.hp) {
+            case 3:
+                break;
+            case 2:
+                this.heart3.loadTexture('heart');
+                break;
+            case 1:
+                this.heart3.loadTexture('heart');
+                this.heart2.loadTexture('heart');
+                break;
+            case 0:
+                this.heart3.loadTexture('heart');
+                this.heart2.loadTexture('heart');
+                this.heart1.loadTexture('heart');
+                break;
+        }
     };
-
-
 };

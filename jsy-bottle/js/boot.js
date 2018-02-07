@@ -2,6 +2,10 @@ var States = States || {};
 
 States.boot = function() {
     this.preload = function() {
+        Phaser.Device.whenReady(function () {
+            game.plugins.add(PhaserInput.Plugin);
+            game.plugins.add(PhaserNineSlice.Plugin);
+        });
         if(typeof(GAME) !== "undefined") {
             this.load.baseURL = GAME + "/";
         }

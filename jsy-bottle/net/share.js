@@ -29,9 +29,9 @@ Third.WeChat.prototype = {
         wx.ready(function () {
 
             wx.onMenuShareTimeline({
-                title : '一不小心就上了双沟头条，想不红都难！',
-                link: 'http://njhylink.hylinkjs.com/game/rhsgpaper/index.html',
-                imgUrl: 'https://hyproject-1252786812.file.myqcloud.com/mobile/meal/share.png',
+                title : '喜气攒不停，新年送好礼！快来测试一下你的新年喜气值吧！！',
+                link: 'https://www.hylinkjs.com/phaser/jsy_index.html',
+                imgUrl: 'http://yhnhwc-1252786812.file.myqcloud.com/jsy/static/img/sharepic.jpg',
                 success : function (res) {
                     alert(res);
                 },
