@@ -14,7 +14,7 @@ Third.WeChat.prototype = {
             debug : false,
             appId : config.appId,
             timestamp : config.timestamp,
-            nonceStr : config.nonceStr,
+            nonceStr : config.noncestr,
             signature : config.signature,
             jsApiList : [
                 'checkJsApi',//判断当前客户端是否支持指定JS接口
@@ -33,7 +33,9 @@ Third.WeChat.prototype = {
                 link: 'https://www.hylinkjs.com/phaser/jsy_index.html',
                 imgUrl: 'http://yhnhwc-1252786812.file.myqcloud.com/jsy/static/img/sharepic.jpg',
                 success : function (res) {
-                    alert(res);
+                    if (OverFloat) {
+                        OverFloat.destroy();
+                    }
                 },
                 cancel : function (res) {
 
