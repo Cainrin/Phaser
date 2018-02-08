@@ -2,7 +2,7 @@ var States = States || {};
 
 States.preload = function () {
     this.preload = function () {
-        var preloadSprite = game.add.sprite(34, game.height/2, 'loading');
+        var preloadSprite = game.add.sprite(34, game.height/2, 'static/jsy/assets/loading');
         game.load.setPreloadSprite(preloadSprite);
 
 

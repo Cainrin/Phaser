@@ -10,8 +10,9 @@ States.menu = function () {
 
     this.preload = function () {
         var isSuccess = false;
-        Net.GetSignPackage("https://www.hylinkjs.com/PublickApi/getsignpackage", function (res) {
+        Net.GetSignPackage("https://www.hylinkjs.com/publicApi/getsignpackage", function (res) {
             isSuccess = true;
+            console.log(typeof res);
             var obj = JSON.parse(res.data);
             Third.config(obj)
         }, function (res) {
