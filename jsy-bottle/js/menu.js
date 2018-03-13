@@ -3,8 +3,10 @@ var gameScore = 0;
 var TargetScore;
 var TextInfo;
 var openid;
+var musicPlay = false;
 var OverFloat = null;
 var CanTouch = true;
+var myCookies = "";
 
 States.menu = function () {
 
@@ -13,8 +15,8 @@ States.menu = function () {
         Net.GetSignPackage("https://www.hylinkjs.com/publicApi/getsignpackage", function (res) {
             isSuccess = true;
             console.log(typeof res);
-            var obj = JSON.parse(res.data);
-            Third.config(obj)
+            var obj = JSON.parse(res);
+            Third.wx.config(obj);
         }, function (res) {
             alert(res)
         });
@@ -36,6 +38,9 @@ States.menu = function () {
                     alert(TextInfo);
                     return
                 }
+                if (musicPlay) {
+                    this.bgMusic.stop();
+                }
                 game.state.start('play');
         }, this);
 
@@ -46,12 +51,15 @@ States.menu = function () {
             }, this);
 
         this.bgMusic = game.add.sound('sd');
-        this.musicButton = new Puzzle.Button(this, game.width - 50, game.height / 15, 'musicClose', function () {
+        this.bgMusic.loopFull(1);
+        this.musicButton = new Puzzle.Button(this, game.width - 50, game.height / 15, 'music', function () {
             if (this.clickState) return;
             if (this.musicButton.key === 'musicClose') {
+                musicPlay = true;
                 this.bgMusic.loopFull(1);
                 this.musicButton.loadTexture('music');
             } else {
+                musicPlay = false;
                 this.musicButton.loadTexture('musicClose');
                 this.bgMusic.stop();
             }
@@ -70,20 +78,16 @@ States.menu.prototype.detailBoard = function () {
         this.clickState = false;
         this.detailGroup.destroy();
     }, this);
-    this.actRule = new Puzzle.Image(this, game.width * 0.6, game.height * 0.635, 'actDe', null, null);
-    this.fontStyle = { font: "25px Arial", fill: "#030403", wordWrap: true, wordWrapWidth: 300 };
-    this.objArray = [
-        this.closeBtn,
-        Puzzle.genderTextObject('2017/12/12-2018/12/12', game.world.centerX + 50, game.height / 3.745, this.fontStyle),
-        this.actRule];
-    this.detailGroup.addMultiple(this.objArray);
+    this.detailGroup.add(this.closeBtn);
 
 };
 
 
 States.menu.prototype.GetServerInfo = function () {
     Net.get("/getgamerule", {key: "123"}, function (res) {
-        var JSobj = JSON.parse(res.data);
+        myCookies = document.cookie;
+        var JSobj = JSON.parse(res);
+        console.log(JSobj);
         TargetScore = JSobj.GameScore;
         TextInfo = JSobj.TextInfo;
         openid = JSobj.openid;
@@ -91,3 +95,4 @@ States.menu.prototype.GetServerInfo = function () {
         console.log(res);
     })
 };
+

@@ -95,6 +95,9 @@ States.play = function () {
 
     this.gameOver = function () {
         console.log("over!");
+        if (musicPlay) {
+            this.gameBgsd.stop();
+        }
         this.stopObs();
         this.startBg.stopScroll();
         this.showFinalText();

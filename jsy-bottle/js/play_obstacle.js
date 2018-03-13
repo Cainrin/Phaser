@@ -29,6 +29,7 @@ function Obstacles(poll, pic, timesec, y, callback, context, z, x ,c) {
         var scoreAniman = new Puzzle.Image(context, myboat.x + 50, myboat.y - 100, '1score', null, null);
         game.world.add(scoreAniman);
         gameScore += 1;
+        console.log(gameScore);
         this.nowTween = game.add.tween(scoreAniman).to({y: scoreAniman.y - 50}, 1000, Phaser.easing, true, 0, 0, false);
         this.nowTween.onComplete.add(function () {
            scoreAniman.destroy();
@@ -38,6 +39,9 @@ function Obstacles(poll, pic, timesec, y, callback, context, z, x ,c) {
 
     this.hitboom = function (myboat, obstacles) {
         var boomAniman = new Puzzle.Image(context, obstacles.x, obstacles.y, 'blowup', null, null);
+        if (musicPlay) {
+            context.boomSd.play();
+        }
         obstacles.kill();
         boomAniman.scale.set(0.3);
         game.world.add(boomAniman);
@@ -47,7 +51,7 @@ function Obstacles(poll, pic, timesec, y, callback, context, z, x ,c) {
         }, this);
 
       context.hp -= 1;
-      if (context.hp < 0) {
+      if (context.hp < 1) {
           context.gameOver();
       }else{
           callback.call(context);

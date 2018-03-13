@@ -2,12 +2,14 @@ var States = States || {};
 
 States.preload = function () {
     this.preload = function () {
-        var preloadSprite = game.add.sprite(34, game.height/2, 'static/jsy/assets/loading');
+        var preloadSprite = game.add.sprite(34, game.height/2, 'loading');
         game.load.setPreloadSprite(preloadSprite);
 
 
         // mainpage
         game.load.audio('sd', 'static/jsy/assets/games/bg.mp3');
+        game.load.audio('bgsd', 'static/jsy/assets/games/gamebgsd.mp3');
+        game.load.audio('boomsd', 'static/jsy/assets/games/boomsd.mp3');
         game.load.image('musicClose', 'static/jsy/assets/games/mainpage/musicClose.png');
         game.load.image('main_bg', 'static/jsy/assets/games/mainpage/mainbg.png');
         game.load.image('dog', 'static/jsy/assets/games/mainpage/dog.png');
@@ -51,7 +53,7 @@ States.preload = function () {
 
         // hitprize
         game.load.image('getbt', 'static/jsy/assets/games/hitprize/getbt.png');
-        game.load.image('hitbg', 'static/jsy/assets/games/hitprize/hitbg.png');
+        game.load.image('hitbg', 'static/jsy/assets/games/hitprize/hitBg.png');
         game.load.image('sharebt', 'static/jsy/assets/games/hitprize/sharebt.png');
 
         // infouload
@@ -66,7 +68,7 @@ States.preload = function () {
         game.load.image('360', 'static/jsy/assets/games/lottery/360.png');
         game.load.image('nohit', 'static/jsy/assets/games/lottery/nothit.png');
         game.load.image('hitBg', 'static/jsy/assets/games/lottery/hitbg.png');
-        game.load.image('ltbt', 'static/jsy/assets/games/lottery/ltbt.png');
+        game.load.image('ltbt', 'static/jsy/assets/games/lottery/ltBt.png');
 
         // sharefloat
         game.load.image('sharefloat', 'static/jsy/assets/games/sharefloat/sharefloat.png');

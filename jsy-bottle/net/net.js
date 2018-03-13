@@ -84,5 +84,5 @@ Net.get = function (url, data, succeed, failed) {
 };
 
 Net.GetSignPackage = function (url, success, failed) {
-  this.http.post(url, {url: "https://www.hylinkjs.com/phaser/jsy_index.html"}, success, failed);
+  this.http.post(url, {url: window.location.href}, success, failed);
 };

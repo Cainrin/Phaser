@@ -11,7 +11,11 @@ States.play = function () {
 
     this.create = function () {
 
-
+        if (musicPlay) {
+            this.boomSd = game.add.sound('boomsd');
+            this.gameBgsd = game.add.sound('bgsd');
+            this.gameBgsd.loopFull();
+        }
         this.startBg = game.add.tileSprite(0, 0, game.width, game.height, 'gamebg');
 
         this.xqBg = game.add.image(game.width * 0.07, game.height * 0.08, 'xqbg', null);
@@ -78,6 +82,9 @@ States.play = function () {
     this.gameOver = function () {
         console.log("over!");
         this.stopObs();
+        if (musicPlay) {
+            this.gameBgsd.stop();
+        }
         game.state.start('over');
     };
 

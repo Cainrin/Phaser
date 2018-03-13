@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/jsy-bottle/js/menu.js" line="54" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab55085b-4f3d-474b-b7c6-fdeea278ad37" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/boomsd.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/gamebgsd.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/gamepage/ltdog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/release/assets/games/activerule/actBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/release/assets/games/activerule/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/release/assets/games/hitprize/hitBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/release/assets/games/sharefloat/sharefloat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsy-bottle/js/jweixin-1.2.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/activerule/actBg.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/activerule/actBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/gamepage/rbot1.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/gamepage/rbot1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/hitprize/hitBg.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/hitprize/hitBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/lottery/hitbg.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/lottery/hitbg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/lottery/nothit.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/lottery/nothit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/dog.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/dog.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/mainbg.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/mainbg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/assets/games/untilxq/xquntil.png" afterPath="$PROJECT_DIR$/jsy-bottle/assets/games/untilxq/xquntil.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/index.html" afterPath="$PROJECT_DIR$/jsy-bottle/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/js/boot.js" afterPath="$PROJECT_DIR$/jsy-bottle/js/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/js/menu.js" afterPath="$PROJECT_DIR$/jsy-bottle/js/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/js/play.js" afterPath="$PROJECT_DIR$/jsy-bottle/js/play.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/js/play_obstacle.js" afterPath="$PROJECT_DIR$/jsy-bottle/js/play_obstacle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/js/preload.js" afterPath="$PROJECT_DIR$/jsy-bottle/js/preload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/net/dictionary.js" afterPath="$PROJECT_DIR$/jsy-bottle/net/dictionary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/net/net.js" afterPath="$PROJECT_DIR$/jsy-bottle/net/net.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsy-bottle/net/share.js" afterPath="$PROJECT_DIR$/jsy-bottle/net/share.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phaser-car/js/play.js" afterPath="$PROJECT_DIR$/phaser-car/js/play.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="preload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/js/preload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1761">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phaser-nineslice.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/js/phaser-nineslice.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="net.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/net/net.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-379">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/js/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="close.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/release/assets/games/activerule/close.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="close.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/activerule/close.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actDe.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/activerule/actDe.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/js/play.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="share.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/net/share.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play_obstacle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsy-bottle/js/play_obstacle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ltbt</find>
+      <find>getBt</find>
+      <find>assets/games</find>
+      <find>static/jsy</find>
+      <find>restart</find>
+      <find>if (music</find>
+      <find>cookie</find>
+      <find>nothit</find>
+      <find>hp</find>
+      <find>close</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>static/jsy/assets/games</replace>
+      <replace>http://hyproject-1252786812.file.myqcloud.com/jsyc</replace>
+      <replace>https://hyproject-1252786812.file.myqcloud.com/jsyc</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="CainRin &lt;onefordecade@163.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jsy-bottle/gulpfiles.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/jweixin-1.2.0.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/net/net.js" />
+        <option value="$PROJECT_DIR$/phaser-car/js/play.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/play.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/net/dictionary.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/boot.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/upload_info.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/index.html" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/over.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/release/index.html" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/preload.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/net/share.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/play_obstacle.js" />
+        <option value="$PROJECT_DIR$/jsy-bottle/js/menu.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/jsy-bottle/gulpfiles.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>publisc</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/jsy-bottle/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2021" />
+    <option name="y" value="83" />
+    <option name="width" value="1717" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="activerule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="activerule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Phaser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="jsy-bottle" type="462c0819:PsiDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+              <item name="sharefloat" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/phaser-input-master" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/lib/node_modules/gulp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jsy-bottle/release/assets/games/sharefloat" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/release/assets/games/hitprize" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/release/assets/games/activerule" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/assets/games/activerule" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/assets/games/untilxq" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jsy-bottle/release/assets/games/activerule" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/assets/games/untilxq" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/assets/games/hitprize" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/assets/games/activerule" />
+      <recent name="$PROJECT_DIR$/jsy-bottle/assets/games" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/jsy-bottle/gulpfiles.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="publisc" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/jsy-bottle/gulpfiles.js</gulpfile>
+      <tasks>
+        <task>publisc</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="publish" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/jsy-bottle/gulpfiles.js</gulpfile>
+      <tasks>
+        <task>publish</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Gulp.js.publish" />
+      <item index="1" class="java.lang.String" itemvalue="Gulp.js.publisc" />
+      <item index="2" class="java.lang.String" itemvalue="Gulp.js.default" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.publisc" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.default" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.publish" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab55085b-4f3d-474b-b7c6-fdeea278ad37" name="Default" comment="" />
+      <created>1517996203536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517996203536</updated>
+      <workItem from="1517996204699" duration="9983000" />
+      <workItem from="1518082536822" duration="4022000" />
+      <workItem from="1518140237549" duration="13436000" />
+      <workItem from="1519786023319" duration="23404000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成主要前段游戏界面&#10;&#10;待完成后端接口&#10;以及开始游戏获取信息判断验证等">
+      <created>1517996469329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517996469329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成前后端交互等待测试">
+      <created>1518083219534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518083219534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成主要功能&#10;&#10;明天测试分享接口">
+      <created>1518084947406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518084947406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50845000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.52256185" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.47743812" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2946612" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2946612" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成主要前段游戏界面&#10;&#10;待完成后端接口&#10;以及开始游戏获取信息判断验证等" />
+    <MESSAGE value="完成前后端交互等待测试" />
+    <MESSAGE value="完成主要功能&#10;&#10;明天测试分享接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成主要功能&#10;&#10;明天测试分享接口" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/接元宵/ltdog.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/gamepage/ltdog.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/hitprize/getbt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/lottery/ltBt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/lottery/music.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/gamepage/bot1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/gamepage/rbot1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/hitprize/music.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/hitprize/sharebt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/infoupload/name.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/infoupload/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/infoupload/nameBlock.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/infoupload/phone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/infoupload/phoneBlock.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/infoupload/uploadBt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/infoupload/uploadPage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/lottery/360.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/music.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/untilxq/150.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/untilxq/restartbt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/musicClose.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/lottery/hitbg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/lottery/nothit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/rtlion.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/rulebt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/startbt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/ltlion.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/dog.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/mainpage/mainbg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/hitprize/hitBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/untilxq/music.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/untilxq/xquntil.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/over.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/release/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2886">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/release/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/upload_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/net/net.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/activerule/actBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/net/share.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/release/assets/games/hitprize/hitBg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/preload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1761">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/phaser-nineslice.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/play_obstacle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/activerule/actDe.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/assets/games/activerule/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/release/assets/games/activerule/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsy-bottle/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
